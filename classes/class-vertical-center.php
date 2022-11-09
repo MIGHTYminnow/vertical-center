@@ -201,7 +201,7 @@ class Vertical_Center {
 		);
 
 		// Set number of fields to output (number of saved groups, or 1 if none are saved).
-		$field_count = count( $this->options[ $this->options_group_slug ] ) ? count( $this->options[ $this->options_group_slug ] ) : 1;
+		$field_count = is_countable( $this->options[ $this->options_group_slug ] ) ? count( $this->options[ $this->options_group_slug ] ) : 1;
 
 		// Output correct number of fields.
 		for ( $i = 1; $i <= $field_count; $i++ ) {
