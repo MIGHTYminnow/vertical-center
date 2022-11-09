@@ -4,7 +4,7 @@
 **Tags:**              vertical, center, responsive, jQuery, JavaScript  
 **Requires at least:** 3.8  
 **Tested up to:**      4.4  
-**Stable tag:**        1.1.1  
+**Stable tag:**        1.1.1-patch-1  
 **License:**           GPLv2 or later  
 **License URI:**       http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -125,6 +125,9 @@ The jQuery script uses the selector to always grab the items fresh from the DOM 
 
 ## Changelog ##
 
+### 1.1.1-patch-1 ###
+* Fix PHP 8 compatibility issue that breaks WPBakery.
+
 ### 1.1.1 ###
 * Fix JS error when no option has yet been saved
 
@@ -150,6 +153,9 @@ The jQuery script uses the selector to always grab the items fresh from the DOM 
 * First release
 
 ## Upgrade Notice ##
+
+### 1.1.1-patch-1 ###
+* Fix PHP 8 compatibility issue that breaks WPBakery.
 
 ### 1.1.1 ###
 * Fix JS error when no option has yet been saved
